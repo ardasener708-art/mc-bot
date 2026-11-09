@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mcmod",
+  "version": "1.0.0",
+  "name": "McMod",
+  "description": "Client-side mod menüsü ve Entity ESP.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.turkishmc.mcmod.McModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.6"
+  }
+}
